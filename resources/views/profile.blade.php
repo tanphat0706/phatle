@@ -128,64 +128,64 @@
     <div class="container">
         <h4 style="margin-top:40px;margin-bottom: 40px; text-align: center">My knowledges</h4>
         <div class="row">
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
                     <img src="{{asset('images/html-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
                     <img src="{{asset('images/css3-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
                     <img src="{{asset('images/jquery-logo.jpg')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
                     <img src="{{asset('images/php7-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
                     <img src="{{asset('images/ubuntu-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
                     <img src="{{asset('images/centos-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
                     <img src="{{asset('images/mysql-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
                     <img src="{{asset('images/postgresql-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
                     <img src="{{asset('images/laravel-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
                     <img src="{{asset('images/codeigniter-logo.jpg')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
                     <img src="{{asset('images/drupal-logo.png')}}" class="img-responsive" >
                 </div>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-xs-6 col-md-2 text-center">
                 <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
                     <img src="{{asset('images/git-logo.png')}}" class="img-responsive" >
                 </div>
@@ -250,7 +250,7 @@
                     <div class="col-md-5"></div>
                 </div>
             </div>
-            <section id="FUNFACT" style="height: 40px;"></section>
+            <section id="FUNFACT" style="height: 10px;"></section>
         </div>
     </div>
 </section>
@@ -261,21 +261,21 @@
                 <div class="row">
                     <div class="col-md-6 wow fadeInLeft animated">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-toolbox"></i>
                                     <h3>300</h3>
                                     <p>Project Done</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-clock"></i>
                                     <h3>1700+</h3>
                                     <p>Hours Worked</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-trophy"></i>
                                     <h3>37</h3>
@@ -284,9 +284,57 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
+                    <div class="col-md-5 col-md-offset-1 wow fadeInRight animated pc-display">
                         <div class="imac">
                             <img src="{{asset('images/my_imac.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 wow fadeInLeft animated">
+                        <div class="row">
+                            <div class="col-md-2 col-xs-4">
+                                <div class="single_count">
+                                    <i class="icon-toolbox"></i>
+                                    <h3>300</h3>
+                                    <p>Project Done</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4">
+                                <div class="single_count">
+                                    <i class="icon-clock"></i>
+                                    <h3>1700+</h3>
+                                    <p>Hours Worked</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4">
+                                <div class="single_count">
+                                    <i class="icon-trophy"></i>
+                                    <h3>37</h3>
+                                    <p>Awards Won</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4">
+                                <div class="single_count">
+                                    <i class="icon-toolbox"></i>
+                                    <h3>300</h3>
+                                    <p>Project Done</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4">
+                                <div class="single_count">
+                                    <i class="icon-clock"></i>
+                                    <h3>1700+</h3>
+                                    <p>Hours Worked</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4">
+                                <div class="single_count">
+                                    <i class="icon-trophy"></i>
+                                    <h3>37</h3>
+                                    <p>Awards Won</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -511,8 +559,10 @@
             } else{
                 $("nav").css('background','transparent')
             }
-            if ($(window).width() < 768) {
 
+            if ($(window).width() < 768) {
+                $('#FUNFACT').removeAttr('id');
+                $('.fun_facts').attr('id','FUNFACT');
             }
         });
     });
