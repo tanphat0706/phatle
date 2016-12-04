@@ -291,44 +291,49 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 wow fadeInLeft animated">
+                    <div class="col-md-6 wow fadeInLeft animated">
                         <div class="row">
-                            <div class="col-md-2 col-xs-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-toolbox"></i>
                                     <h3>300</h3>
                                     <p>Project Done</p>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-xs-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-clock"></i>
                                     <h3>1700+</h3>
                                     <p>Hours Worked</p>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-xs-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-trophy"></i>
                                     <h3>37</h3>
                                     <p>Awards Won</p>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-xs-4">
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 wow fadeInRight animated">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-toolbox"></i>
                                     <h3>300</h3>
                                     <p>Project Done</p>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-xs-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-clock"></i>
                                     <h3>1700+</h3>
                                     <p>Hours Worked</p>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-xs-4">
+                            <div class="col-md-4 col-xs-4">
                                 <div class="single_count">
                                     <i class="icon-trophy"></i>
                                     <h3>37</h3>
