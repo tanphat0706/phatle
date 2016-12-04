@@ -76,7 +76,7 @@
                     <img class="profile-pic" src="{{asset('images/me_avt.jpg')}}" alt="">
                     <h2>I'm Le Tan Phat</h2>
                     <p>
-                        hi ! just call me <span style="color: #fff">phat</span>. i'm web developer<br>
+                        hi ! just call me <span style="color: #fff">Phat</span>. i'm web developer<br>
                         with 3+ years experience in <span style="color: #fff">php</span>, worked with some popular <br><span style="color: #fff">php framework</span> and <span style="color: #fff">agile process</span>. Let's <span style="color: #fff">start scrolling </span>and find out more <span style="color: #fff">about me :)</span>
                     </p>
                     <img src="{{asset('images/shape.png')}}" alt="">
