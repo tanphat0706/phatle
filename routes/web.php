@@ -10,14 +10,13 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-Route::group(array('middleware' => 'forceSSL'), function() {
-    Route::get('/', function () {
-        return view('profile');
-    });
-    Route::get('/welcome', function () {
-        return view('welcome');
-    });
-    /*Auth::routes();
 
-    Route::get('/home', 'HomeController@index');*/
+Route::get('/', function () {
+    return view('profile');
 });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+/*Auth::routes();
+
+Route::get('/home', 'HomeController@index');*/
