@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        background: #333;
+    }
+    .home_text h2{
+        font-size: 40px;
+    }
+    .profile-pic{
+        width: 100px;
+        height: 100px;
+    }
+    .scrolldown{
+        display: none !important;
+    }
+}
