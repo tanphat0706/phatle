@@ -59,7 +59,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#HOME">Home</a></li>
                     <li><a href="#ABOUT">About</a></li>
-                    <li><a href="#TESTIMONIAL">Testimonial</a></li>
+                    <li><a href="#FUNFACT">Funfact</a></li>
                     <li><a href="#WORK">Work</a></li>
                     <li><a href="#CONTACT">Contact</a></li>
                 </ul>
@@ -73,7 +73,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="home_text wow fadeInUp animated">
-                    <img class="profile-pic" src="{{asset('images/profile/profilepic.jpg')}}" alt="">
+                    <img class="profile-pic" src="{{asset('images/me_avt.jpg')}}" alt="">
                     <h2>I'm Le Tan Phat</h2>
                     <p>
                         hi ! just call me <span style="color: #fff">Phat</span>. i'm web developer<br>
@@ -99,120 +99,14 @@
                 <div class="about_title">
                     <h2>About Me</h2>
                     <img src="{{asset('images/shape.png')}}" alt="">
-                    <h4 style="margin-bottom: 40px">My knowledges</h4>
+
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="{{asset('images/html-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
-                    <img src="{{asset('images/css3-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="0.9s">
-                    <img src="{{asset('images/jquery-logo.jpg')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="1.2s">
-                    <img src="{{asset('images/php7-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="1.4s">
-                    <img src="{{asset('images/ubuntu-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="1.6s">
-                    <img src="{{asset('images/centos-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="1.8s">
-                    <img src="{{asset('images/mysql-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="2s">
-                    <img src="{{asset('images/postgresql-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="2.2s">
-                    <img src="{{asset('images/laravel-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="2.4s">
-                    <img src="{{asset('images/codeigniter-logo.jpg')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="2.8s">
-                    <img src="{{asset('images/drupal-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="3s">
-                    <img src="{{asset('images/git-logo.png')}}" class="img-responsive" >
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4  wow fadeInLeft animated">
-                <h4 style="margin-bottom: 40px">My skills</h4>
-                <div class="single_progress_bar">
-                    <h2>DESIGN - 90%</h2>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 90%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="single_progress_bar">
-                    <h2>DEVELOPMENT - 60%</h2>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="single_progress_bar">
-                    <h2>MARKETING - 75%</h2>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 75%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="single_progress_bar">
-                    <h2>SEO - 95%</h2>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 95%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4  wow fadeInRight animated">
-                <h4 style="margin-bottom: 40px">My story</h4>
+            <div class="col-md-6 wow fadeInLeft animated">
                 <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -221,8 +115,7 @@
                     pariatur. Sed quia non
                     numquam eius modi tempora.</p>
             </div>
-            <div class="col-md-4  wow fadeInRight animated">
-                <h4 style="margin-bottom: 40px;color: #fff">My story</h4>
+            <div class="col-md-6 wow fadeInRight animated">
                 <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
                     quia consequuntur magni dolores eos
                     qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
@@ -232,26 +125,132 @@
             </div>
         </div>
     </div>
-    <div class="testimonial text-center wow fadeInUp animated">
+    <div class="container">
+        <h4 style="margin-top:40px;margin-bottom: 40px; text-align: center">My knowledges</h4>
+        <div class="row">
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{{asset('images/html-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{{asset('images/css3-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{{asset('images/jquery-logo.jpg')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{{asset('images/php7-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{{asset('images/ubuntu-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{{asset('images/centos-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="{{asset('images/mysql-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="{{asset('images/postgresql-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="{{asset('images/laravel-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="{{asset('images/codeigniter-logo.jpg')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="{{asset('images/drupal-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="{{asset('images/git-logo.png')}}" class="img-responsive" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial wow fadeInUp animated">
         <div class="container">
             <div class="owl-carousel">
                 <div class="single_testimonial text-center wow fadeInUp animated">
-                    <h2>Education</h2>
+                    <h2 class="top-h2">Education</h2>
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
                         magni dolores<br/> eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
-                <div class="single_testimonial text-center">
-                    <h2>Experience</h2>
+                <div class="single_testimonial">
+                    <h2 class="top-h2">Experience</h2>
                     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
                         quia non numquam eius<br/> modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                         voluptatem.</p>
                 </div>
-                <div class="single_testimonial text-center">
-                    <h2>Skills</h2>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores<br/> eos qui ratione voluptatem sequi nesciunt.</p>
+                <div class="single_testimonial">
+                    <h2 class="top-h2">Skills</h2>
+                    <div class="col-md-7">
+                        <div class="single_progress_bar">
+                            <h2>DESIGN - 90%</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_progress_bar">
+                            <h2>DEVELOPMENT - 60%</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_progress_bar">
+                            <h2>MARKETING - 75%</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_progress_bar">
+                            <h2>SEO - 95%</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 95%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5"></div>
                 </div>
             </div>
+            <section id="FUNFACT" style="height: 40px;"></section>
         </div>
     </div>
 </section>
@@ -417,15 +416,15 @@
             <div class="col-md-3  wow fadeInLeft animated">
                 <div class="single_contact_info">
                     <h2>Call Me</h2>
-                    <p>+88 00 123 456 01</p>
+                    <p>0933 224 xxx</p>
                 </div>
                 <div class="single_contact_info">
                     <h2>Email Me</h2>
-                    <p>Hello@example.com</p>
+                    <p>letanphat0706@gmail.com</p>
                 </div>
                 <div class="single_contact_info">
                     <h2>Address</h2>
-                    <p>216 Street Address, Barisal, BD</p>
+                    <p>xxx Binh Tien, Ward 7, District 6, Ho Chi Minh city, Vietnam</p>
                 </div>
             </div>
             <div class="col-md-9  wow fadeInRight animated">
@@ -462,7 +461,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="footer_logo   wow fadeInUp animated">
-                        <img src="{{asset('images/logo.png')}}" alt="">
+                        <img src="{{asset('images/phat_logo.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -487,9 +486,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="copyright_text   wow fadeInUp animated">
-                        <p>&copy; brandy 2015.All Right Reserved By <a
-                                    href="http://www.themeforest.net/user/thecodecafe" target="_blank">Code Cafe
-                                Team</a></p>
+                        <p>&copy; phat le 2016. All Right Reserved By</p>
                         <p>Made with love for creative people.</p>
                     </div>
                 </div>
