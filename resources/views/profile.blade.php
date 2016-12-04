@@ -8,8 +8,8 @@
     <title>Phat Le - My profile and information</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Preloader -->
@@ -73,7 +73,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="home_text wow fadeInUp animated">
-                    <img class="profile-pic" src="{{asset('images/me_avt.jpg')}}" alt="">
+                    <img class="profile-pic" src="{{asset('images/profile/profilepic.jpg')}}" alt="">
                     <h2>I'm Le Tan Phat</h2>
                     <p>
                         hi ! just call me <span style="color: #fff">Phat</span>. i'm web developer<br>
