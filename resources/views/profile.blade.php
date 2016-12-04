@@ -73,8 +73,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="home_text wow fadeInUp animated">
-                    {{ Html::image('images/profile/profilepic.jpg')}}
-                    {{--<img class="profile-pic" src="{{asset('images/profile/profilepic.jpg')}}" alt="">--}}
+                    <img class="profile-pic" src="{{asset('images/profile/profilepic.jpg')}}" alt="">
                     <h2>I'm Le Tan Phat</h2>
                     <p>
                         hi ! just call me <span style="color: #fff">Phat</span>. i'm web developer<br>
