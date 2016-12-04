@@ -286,7 +286,7 @@
                     </div>
                     <div class="col-md-5 col-md-offset-1 wow fadeInRight animated">
                         <div class="imac">
-                            <img src="{{asset('images/imac.png')}}" alt="">
+                            <img src="{{asset('images/my_imac.png')}}" alt="">
                         </div>
                     </div>
                 </div>
