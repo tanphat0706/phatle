@@ -7,9 +7,9 @@ jQuery(document).ready(function ($) {
 		'height': $(window).height()
 	});
 	$(window).on('resize', function () {
-		// $('header').css({
-		// 	'height': $(window).height()
-		// });
+		$('header').css({
+			'height': $(window).height()
+		});
 		// $('body').css({
 		// 	'width': $(window).width()
 		// })
