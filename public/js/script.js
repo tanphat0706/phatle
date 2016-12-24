@@ -62,13 +62,13 @@ $(document).ready(
 
 	function () {
 
-		$("html").niceScroll({
-			cursorcolor: "#f74d65",
-			scrollspeed: "30",
-			cursorborder: "1px solid #f74d65",
-			horizrailenabled: "false",
-			cursorborderradius: "0px"
-		});
+		// $("html").niceScroll({
+		// 	cursorcolor: "#f74d65",
+		// 	scrollspeed: "30",
+		// 	cursorborder: "1px solid #f74d65",
+		// 	horizrailenabled: "false",
+		// 	cursorborderradius: "0px",
+		// });
 
 	}
 

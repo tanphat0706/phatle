@@ -26,6 +26,8 @@
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <!-- Responsive CSS -->
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{asset('plugins/malihu_scrollbar/jquery.mCustomScrollbar.css')}}">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -556,6 +558,7 @@
 <script src="{{asset('js/owl.carousel.js')}}"></script>
 <script src="{{asset('js/wow.js')}}"></script>
 <script src="{{asset('js/script.js')}}"></script>
+<script src="{{asset('plugins/malihu_scrollbar/jquery.mCustomScrollbar.concat.min.js')}}"></script>
 <script>
     $(document).ready(function () {
         $(window).scroll(function () {
@@ -570,7 +573,12 @@
                 $('.fun_facts').attr('id','FUNFACT');
             }
         });
+        // $("body").mCustomScrollbar({
+		// 			theme:"minimal"
+		// });
     });
+
+	
 </script>
 </body>
 
